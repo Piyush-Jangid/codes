@@ -65,7 +65,7 @@ int main()
     cout << "Write -1 to indicate the end of neighbors" << endl;
     int y;
     for(int i = 1; i < n+1; i++){
-        cout << "Write neighbours of city in ascending order" << i << ": ";
+        cout << "Write neighbours of city " << i << ": ";
         while(1){
             cin >> y;
             if(y == -1)
